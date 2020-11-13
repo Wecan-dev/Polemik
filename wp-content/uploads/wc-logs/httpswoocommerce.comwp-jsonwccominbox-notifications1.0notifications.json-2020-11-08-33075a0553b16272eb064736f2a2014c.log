@@ -1,0 +1,76 @@
+2020-11-08T18:47:45+00:00 ERROR Error getting remote inbox notification data feed
+2020-11-08T18:47:45+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+stream_socket_client(): unable to connect to ssl://woocommerce.com:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution)
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+2020-11-08T18:48:00+00:00 ERROR Error getting remote inbox notification data feed
+2020-11-08T18:48:00+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+stream_socket_client(): unable to connect to ssl://woocommerce.com:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution)
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+2020-11-08T18:48:36+00:00 ERROR Error getting remote inbox notification data feed
+2020-11-08T18:48:36+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+stream_socket_client(): unable to connect to ssl://woocommerce.com:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution)
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+2020-11-08T18:48:36+00:00 ERROR Error getting remote inbox notification data feed
+2020-11-08T18:48:36+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+stream_socket_client(): unable to connect to ssl://woocommerce.com:443 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution)
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
