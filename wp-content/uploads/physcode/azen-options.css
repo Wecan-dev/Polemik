@@ -368,6 +368,18 @@ h6, .sc-list-posts .news-details .post-title a, .content-area .content-blog-maso
   font-family: 'Alvaro-Condensed';
   src: url("../azen/fonts/Alvaro-Condensed") format('woff');
 }
+.search-overlay .closeicon:before{
+    position: absolute;
+    left: 15px;
+    content: 'Cerrar ';
+    height: 24px;
+    width: 1px;
+    color: #959595;
+    font-size: 18px;
+}
+#sb_instagram .sb_instagram_header .sbi_header_text.sbi_no_bio h3{
+    color:white;
+}
 #custom_html-5{
     display: flex;
     justify-content: center;
