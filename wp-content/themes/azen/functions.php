@@ -24,3 +24,4 @@ function azen_theme_override_woocommerce_image_size_single( $size ) {
 		'crop'   => 1,
 	);
 }
+

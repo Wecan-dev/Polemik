@@ -366,10 +366,26 @@ h6, .sc-list-posts .news-details .post-title a, .content-area .content-blog-maso
     font-size: 16px; } }
 .wrapper-container { background-color: #fff}@font-face {
   font-family: 'Alvaro-Condensed';
-  src: url("../azen/custom/Alvaro-Condensed") format('woff');
+  src: url("../azen/fonts/Alvaro-Condensed") format('woff');
 }
-
-
+#custom_html-5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+        padding-top: 30px;
+}
+@media (min-width: 0px) and (max-width: 767px){
+    .main-home__hover--grid{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+   
+}
+@media (min-width: 0px) and (max-width: 767px){
+     .img-hover{
+    height: 220px !important;
+    }
+}
 
 .mc4wp-form .mc4wp-form-fields p .email::-webkit-input-placeholder { color: black; } 
 
