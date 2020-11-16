@@ -1,2 +1,14 @@
 2020-11-16T14:12:41+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) en /var/www/html/pole/wp-content/themes/azen/functions.php en la línea 30
 
+2020-11-16T16:45:14+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen-child/functions.php en la línea 34
+
+2020-11-16T16:45:45+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen-child/functions.php en la línea 36
+
+2020-11-16T16:45:51+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen-child/functions.php en la línea 36
+
+2020-11-16T16:46:02+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen-child/functions.php en la línea 36
+
+2020-11-16T16:47:09+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen-child/functions.php en la línea 34
+
+2020-11-16T16:47:35+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen-child/functions.php en la línea 34
+
