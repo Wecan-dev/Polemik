@@ -364,7 +364,18 @@ h6, .sc-list-posts .news-details .post-title a, .content-area .content-blog-maso
 
   h5 {
     font-size: 16px; } }
-.wrapper-container { background-color: #fff}.logo img{
+.wrapper-container { background-color: #fff}@font-face {
+  font-family: 'Alvaro-Condensed';
+  src: url("../azen/custom/Alvaro-Condensed") format('woff');
+}
+
+.mc4wp-form .mc4wp-form-fields p .email::-webkit-input-placeholder { color: black; } 
+
+
+
+
+
+.logo img{
 				   width: 100%; 
 				}
 #rev_slider_1_1_wrapper .custom.tparrows:before{
@@ -668,17 +679,4 @@ background: #111 !important;
 }
 .breadcrumb-section .phys-breadcrumb li{
     color:white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+}				
