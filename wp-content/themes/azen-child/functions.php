@@ -20,8 +20,17 @@ add_filter('gettext',  'translate_text');
 add_filter('ngettext',  'translate_text');
 function translate_text($translated) {
 	$translated = str_ireplace('Home',  'Inicio',  $translated);
-	$translated = str_ireplace(' Sale',  'Venta',  $translated);
-
+	$translated = str_ireplace('sale',  'venta',  $translated);
+	$translated = str_ireplace('by',  '
+por',  $translated);
+	$translated = str_ireplace('No products in the cart.',  '
+No hay productos en el carrito.',  $translated);
+	$translated = str_ireplace('view cart',  '
+ver carrito',  $translated);
+		$translated = str_ireplace('There was a problem with your submission. Errors are marked below.',  'Hubo un problema con el envío. Los errores están marcados a continuación.',  $translated);
+$translated = str_ireplace('This field cannot be blank.',  'Este campo no puede estar vacío.',  $translated);
+	$translated = str_ireplace('Qty',  '
+Cant',  $translated);
 	return $translated;
 
 }

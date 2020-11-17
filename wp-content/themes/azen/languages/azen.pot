@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-20 10:53+0000\n"
+"POT-Creation-Date: 2020-11-16 19:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -204,7 +204,7 @@ msgstr ""
 
 #: svn/wp/Theme/azen/inc/template-tags.php:128
 #: svn/wp/Theme/azen/physc-builder/testimonials/testimonials.php:61
-msgid "BY"
+msgid "DE"
 msgstr ""
 
 #: svn/wp/Theme/azen/inc/template-tags.php:242

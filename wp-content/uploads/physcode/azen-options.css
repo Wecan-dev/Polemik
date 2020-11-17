@@ -368,6 +368,76 @@ h6, .sc-list-posts .news-details .post-title a, .content-area .content-blog-maso
   font-family: 'Alvaro-Condensed';
   src: url("../azen/fonts/Alvaro-Condensed") format('woff');
 }
+
+.with_frm_style input[type=text], .with_frm_style input[type=password], .with_frm_style input[type=email], .with_frm_style input[type=number], .with_frm_style input[type=url], .with_frm_style input[type=tel], .with_frm_style input[type=file], .with_frm_style input[type=search], .with_frm_style select, .with_frm_style .frm-card-element.StripeElement{
+     padding: 9px 10px;
+    border: 1px solid #e6e6e6 !important ;
+    font-size: 15px;
+    border-radius: 0px;
+    height:40px;
+}
+.frm12, .frm_full, .frm_full .wp-editor-wrap, .frm_full > input:not([type='checkbox']):not([type='radio']):not([type='button']), .frm_full select, .frm_full textarea{
+ height: 200px;
+    display: inherit;
+   
+    font-size: 14px;    
+    border-radius: 0px;
+}
+.frm_style_formidable-style.with_frm_style .frm_compact .frm_dropzone.dz-clickable .dz-message, .frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_style_formidable-style.with_frm_style .frm_submit button, .frm_form_submit_style, .frm_style_formidable-style.with_frm_style .frm-edit-page-btn{
+
+}
+.frm_button_submit{
+         background-color: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+    padding: 9px 40px !important;
+    cursor: pointer !important;
+    text-transform: uppercase !important;
+    border-radius: 0px !important;
+}
+.frm_full textarea:focus{
+    border: solid 1px #e6e6e6 !important;
+    
+}
+
+#frm_field_9_container{
+    height:50px;
+}
+.with_frm_style input[type=text], .with_frm_style input[type=password], .with_frm_style input[type=email], .with_frm_style input[type=number], .with_frm_style input[type=url], .with_frm_style input[type=tel], .with_frm_style input[type=file], .with_frm_style input[type=search], .with_frm_style select, .with_frm_style .frm-card-element.StripeElement{
+     width: 100% !important;
+    display: block;
+    background: transparent;
+    border: 1px solid #ffffff;
+    line-height: 35px;
+    text-indent: 10px;
+    color:black;
+  
+}
+.frm_style_formidable-style.with_frm_style .frm_compact .frm_dropzone.dz-clickable .dz-message, .frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_style_formidable-style.with_frm_style .frm_submit button, .frm_form_submit_style, .frm_style_formidable-style.with_frm_style .frm-edit-page-btn{
+  
+}
+.frm_button_submit2{
+    background-color: #ff595a !important;
+    color: white !important;
+    font-weight: 600 !important;
+      box-shadow: none !important;
+    border-radius: 0px !important;
+    border: none !important;
+        width: 24% !important;
+}
+.frm_button_submit2:focus{
+      border: none !important;
+}
+.frm_style_formidable-style.with_frm_style .frm-edit-page-btn:hover, .frm_style_formidable-style.with_frm_style input[type=submit]:hover, .frm_style_formidable-style.with_frm_style .frm_submit input[type=button]:hover, .frm_style_formidable-style.with_frm_style .frm_submit button:hover{
+     background-color: white;
+     color:#ff595a ;
+}
+
+
+
+
+
+
 .search-overlay .closeicon:before{
     position: absolute;
     left: 15px;
@@ -391,8 +461,43 @@ h6, .sc-list-posts .news-details .post-title a, .content-area .content-blog-maso
         display: grid !important;
         grid-template-columns: 1fr !important;
     }
+    #sb_instagram .sbi_photo{
+        height: 180px !important;
+    width: 80%;
+    }
+    .wrapper-footer aside{
+            margin-bottom: 0px;
+    }
+    .wrapper-footer aside.text-footer{
+            padding-top: 20px;
+    }
+    #custom_html-5{
+            padding-top: 6px;
+    }
+    .wrapper-footer{
+        padding: 49px 0 10px;
+    }
+    .wrapper-footer .widget-title{
+            padding: 0 0 0px;
+    }
    
 }
+
+@media (min-width: 768px) and (max-width: 991px){
+    .wrapper-footer aside.text-footer{
+            padding-top: 0px;
+    }
+    .wrapper-footer .widget-title{
+            padding: 0 0 0px;
+    }
+  .wrapper-footer aside{
+          margin-bottom: 15px;
+  }
+  .wrapper-footer{
+          padding: 20px 0 20px;
+  }
+}
+
 @media (min-width: 0px) and (max-width: 767px){
      .img-hover{
     height: 220px !important;
@@ -708,3 +813,15 @@ background: #111 !important;
 .breadcrumb-section .phys-breadcrumb li{
     color:white;
 }				
+.woocommerce ul.products li.product span.onsale, .woocommerce ul.products div.product span.onsale, .woocommerce div.products li.product span.onsale, .woocommerce div.products div.product span.onsale, .woocommerce-page ul.products li.product span.onsale, .woocommerce-page ul.products div.product span.onsale, .woocommerce-page div.products li.product span.onsale, .woocommerce-page div.products div.product span.onsale{
+width: -2px !important; 
+}		
+.woocommerce div.product .woocommerce-tabs ul.tabs{
+    font-size:0px;
+}
+
+
+
+
+
+

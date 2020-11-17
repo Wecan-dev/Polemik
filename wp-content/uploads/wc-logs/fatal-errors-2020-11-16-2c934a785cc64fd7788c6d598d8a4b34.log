@@ -12,3 +12,13 @@
 
 2020-11-16T16:47:35+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen-child/functions.php en la línea 34
 
+2020-11-16T18:26:06+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen-child/functions.php en la línea 37
+
+2020-11-16T19:38:57+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen/functions.php en la línea 38
+
+2020-11-16T19:39:01+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen/functions.php en la línea 38
+
+2020-11-16T19:39:09+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen/functions.php en la línea 38
+
+2020-11-16T19:39:10+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/pole/wp-content/themes/azen-child/functions.php:21) en /var/www/html/pole/wp-content/themes/azen/functions.php en la línea 38
+
