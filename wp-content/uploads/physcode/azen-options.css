@@ -799,10 +799,7 @@ background: #111 !important;
     object-fit: cover !important;
 }		
 .breadcrumb-section{
-  background-image: url(http://localhost/pole/wp-content/uploads/2020/11/2020-06-12-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
 }
 .breadcrumb-section .heading_primary{
     color:white;
@@ -822,14 +819,4 @@ width: -2px !important;
 .woocommerce ul.products li.product span.onsale, .woocommerce ul.products div.product span.onsale, .woocommerce div.products li.product span.onsale, .woocommerce div.products div.product span.onsale, .woocommerce-page ul.products li.product span.onsale, .woocommerce-page ul.products div.product span.onsale, .woocommerce-page div.products li.product span.onsale, .woocommerce-page div.products div.product span.onsale{
     padding: 5px 3px 5px 11px;
     letter-spacing: 6px;
-}
-
-
-
-
-
-
-
-
-
-
+}				

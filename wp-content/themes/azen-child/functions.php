@@ -20,6 +20,9 @@ add_filter('gettext',  'translate_text');
 add_filter('ngettext',  'translate_text');
 function translate_text($translated) {
 	$translated = str_ireplace('Home',  'Inicio',  $translated);
+	$translated = str_ireplace('back to',  'de regreso',  $translated);
+	$translated = str_ireplace('Oops ! Page you are looking for does not exist.',  '
+¡Ups! La página que está buscando no existe.',  $translated);
 	$translated = str_ireplace('sale',  'venta',  $translated);
 	$translated = str_ireplace('by',  '
 por',  $translated);
