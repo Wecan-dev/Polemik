@@ -19,7 +19,17 @@ add_action( 'wp_enqueue_scripts', 'azen_child_enqueue_styles', 11 );
 add_filter('gettext',  'translate_text');
 add_filter('ngettext',  'translate_text');
 function translate_text($translated) {
+	
 	$translated = str_ireplace('Home',  'Inicio',  $translated);
+	$translated = str_ireplace('Search Results for',  '
+Resultados de búsqueda de',  $translated);
+	
+	$translated = str_ireplace('Search Results ',  '
+Resultados de búsqueda ',  $translated);
+	
+	$translated = str_ireplace('Nothing Found',  '
+Nada Encontrado',  $translated);
+	$translated = str_ireplace('Sorry, but nothing matched your search terms. Please try again with some different keywords.',  'Lo siento, pero nada coincide con los términos de búsqueda. Vuelva a intentarlo con algunas palabras clave diferentes.',  $translated);
 	$translated = str_ireplace('back to',  'de regreso',  $translated);
 	$translated = str_ireplace('Oops ! Page you are looking for does not exist.',  '
 ¡Ups! La página que está buscando no existe.',  $translated);
