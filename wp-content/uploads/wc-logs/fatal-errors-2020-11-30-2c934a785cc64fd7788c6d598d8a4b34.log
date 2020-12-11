@@ -1,0 +1,4 @@
+2020-11-30T16:11:09+00:00 CRITICAL Out of memory (allocated 18874368) (tried to allocate 32768 bytes) en /var/www/html/Polemik/wp-content/plugins/redux-framework/redux-core/inc/classes/class-redux-enqueue.php en la línea 703
+
+2020-11-30T16:12:18+00:00 CRITICAL Out of memory (allocated 33554432) (tried to allocate 9062144 bytes) en /var/www/html/Polemik/wp-includes/class-wp-image-editor-gd.php en la línea 96
+

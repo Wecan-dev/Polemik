@@ -19,8 +19,21 @@ add_action( 'wp_enqueue_scripts', 'azen_child_enqueue_styles', 11 );
 add_filter('gettext',  'translate_text');
 add_filter('ngettext',  'translate_text');
 function translate_text($translated) {
-	
+	$translated = str_ireplace('Login',  '
+Iniciar sesión',  $translated);
 	$translated = str_ireplace('Home',  'Inicio',  $translated);
+		$translated = str_ireplace('This field is required.',  'Este campo es requerido.',  $translated);
+	$translated = str_ireplace('Email already exists.',  '
+El Email ya existe.',  $translated);
+	$translated = str_ireplace('User successfully registered.',  '
+Usuario registrado exitosamente.',  $translated);
+	$translated = str_ireplace('submit',  '
+Enviar',  $translated);
+	$translated = str_ireplace('Password ',  'Contraseña',  $translated);
+	$translated = str_ireplace('Username or email address',  'Nombre de usuario o dirección de correo electrónico',  $translated);
+	
+		$translated = str_ireplace('your order',  '
+Su pedido',  $translated);
 	$translated = str_ireplace('Search Results for',  '
 Resultados de búsqueda de',  $translated);
 	

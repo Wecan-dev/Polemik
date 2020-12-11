@@ -1,0 +1,4 @@
+2020-12-03T15:16:40+00:00 CRITICAL Out of memory (allocated 75497472) (tried to allocate 36864 bytes) en /var/www/html/Polemik/wp-includes/pomo/mo.php en la línea 297
+
+2020-12-03T17:43:10+00:00 CRITICAL Out of memory (allocated 81788928) (tried to allocate 20480 bytes) en /var/www/html/Polemik/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php en la línea 663
+

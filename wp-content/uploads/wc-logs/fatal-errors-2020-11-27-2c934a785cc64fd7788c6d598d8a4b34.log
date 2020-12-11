@@ -1,0 +1,4 @@
+2020-11-27T13:56:17+00:00 CRITICAL Out of memory (allocated 48234496) (tried to allocate 12288 bytes) en /var/www/html/Polemik/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php en la línea 569
+
+2020-11-27T14:26:31+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 32768 bytes) en /var/www/html/Polemik/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php en la línea 1890
+

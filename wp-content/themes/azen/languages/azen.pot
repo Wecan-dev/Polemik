@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 19:35+0000\n"
+"POT-Creation-Date: 2020-12-08 18:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -317,6 +317,7 @@ msgstr ""
 
 #: svn/wp/Theme/azen/woocommerce/myaccount/form-login.php:49
 #: svn/wp/Theme/azen/woocommerce/myaccount/form-login.php:101
+msgctxt "Contraseña"
 msgid "Password"
 msgstr ""
 
