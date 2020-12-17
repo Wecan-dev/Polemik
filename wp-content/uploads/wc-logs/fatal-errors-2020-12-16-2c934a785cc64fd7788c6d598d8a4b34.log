@@ -1,0 +1,6 @@
+2020-12-16T14:41:51+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/Polemik/wp-content/themes/azen-child/functions.php:21) en /var/www/html/Polemik/wp-content/themes/azen/woocommerce/archive-product.php en la línea 104
+
+2020-12-16T14:42:10+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/Polemik/wp-content/themes/azen-child/functions.php:21) en /var/www/html/Polemik/wp-content/themes/azen/woocommerce/archive-product.php en la línea 104
+
+2020-12-16T14:43:18+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/Polemik/wp-content/themes/azen-child/functions.php:21) en /var/www/html/Polemik/wp-content/themes/azen/woocommerce/archive-product.php en la línea 108
+

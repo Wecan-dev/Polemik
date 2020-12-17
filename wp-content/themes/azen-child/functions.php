@@ -21,7 +21,10 @@ add_filter('ngettext',  'translate_text');
 function translate_text($translated) {
 	$translated = str_ireplace('Login',  '
 Iniciar sesión',  $translated);
-	$translated = str_ireplace('Home',  'Inicio',  $translated);
+	$translated = str_ireplace('Inicio',  '
+Home',  $translated);
+	
+
 		$translated = str_ireplace('This field is required.',  'Este campo es requerido.',  $translated);
 	$translated = str_ireplace('Email already exists.',  '
 El Email ya existe.',  $translated);
@@ -46,7 +49,7 @@ Nada Encontrado',  $translated);
 	$translated = str_ireplace('back to',  'de regreso',  $translated);
 	$translated = str_ireplace('Oops ! Page you are looking for does not exist.',  '
 ¡Ups! La página que está buscando no existe.',  $translated);
-	$translated = str_ireplace('sale',  'venta',  $translated);
+
 	$translated = str_ireplace('by',  '
 por',  $translated);
 	$translated = str_ireplace('No products in the cart.',  '
@@ -60,4 +63,6 @@ Cant',  $translated);
 	return $translated;
 
 }
+
+
 

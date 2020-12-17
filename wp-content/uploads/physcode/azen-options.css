@@ -568,6 +568,13 @@ h6, .sc-list-posts .news-details .post-title a, .content-area .content-blog-maso
 
 
 @media (min-width: 0px) and (max-width: 767px){
+   #post-3587 > div > figure{
+       margin:0;
+   }
+    #frm_form_4_container{
+        
+            width: 100% !important;
+    }
     #post-9 > div > div > form > p:nth-child(1){
             width: 100%;
     }
@@ -1647,3 +1654,71 @@ body > div.comming-soon-page.wrapper-container > div > div > div > div > section
 #post-9 > div > div > div > div.u-columns.woocommerce-Addresses.col2-set.addresses > div.u-column1.col-1.woocommerce-Address > header > a{
       margin-left: 20px;  
 }				
+#frm_form_4_container{
+    
+    width: 100%;
+}
+#frm_field_17_container{
+    margin-bottom: 0px;
+    padding-top: 0px;
+        width: 71%;
+}
+#form_form-new > div > fieldset > div{
+        border: 1px solid black;
+    
+        display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#field_c6tp6{
+        height: 50px;
+        border:none !important;
+        color:black;
+        margin-top: 5px;
+    
+}
+#field_c6tp6::-webkit-input-placeholder { color: black; } 
+
+#field_c6tp6:focus{
+    
+    background:none;
+}
+
+#form_form-new{
+        width: 100%;
+}
+#frm_form_4_container{
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    
+}
+
+#form_form-new > div > fieldset > div > div.frm_submit > button{
+    height: 45px;
+    box-shadow:none !important;
+    border:none !important;
+    
+}
+.woocommerce .shop-single-v1-section .images .onsale, .woocommerce .shop-single-v1-section .images .onnew{
+    
+    right: 49px;
+    
+    
+}	
+body > div > div.site.page-content > div.breadcrumb-contact-us.breadcrumb-section.section-box > div > div > ul > li:nth-child(1) > a{
+display:none;    
+    
+}
+.breadcrumb-section .phys-breadcrumb li:after{
+    
+    display:none;
+}
+.phys-breadcrumb{
+    display:none;
+}				
+
+#post-3587{
+        display: flex;
+    justify-content: center;
+}
